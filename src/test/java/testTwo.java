@@ -6,8 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class testTwo {
 
-    private static By USERNAME_INPUT_FIELD_LOCATOR = By.cssSelector("[data-type='text']");
-    private static By PASSWORD_INPUT_FIELD_LOCATOR = By.cssSelector("[data-type='password']");
+    private static By USERNAME_INPUT_FIELD_LOCATOR = By.cssSelector("[data-type=text]");
+    private static By PASSWORD_INPUT_FIELD_LOCATOR = By.cssSelector("[data-type=password]");
     private static By LOGIN_BUTTON_LOCATOR = By.cssSelector("[type='submit']");
 
     private WebDriver driver;
