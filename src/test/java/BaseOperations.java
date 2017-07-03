@@ -20,4 +20,9 @@ public abstract class BaseOperations {
         wait.until(ExpectedConditions.visibilityOfElementLocated(ADMIN_PAGE_LOGO_LOCATOR));
     }
 
+    public static void openStoreMainPage(WebDriver driver) {
+        WebDriverWait wait = new WebDriverWait(driver, 5);
+        driver.get("http://localhost/litecart");
+    }
+
 }
