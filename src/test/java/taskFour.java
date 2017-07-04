@@ -1,4 +1,5 @@
 import io.github.bonigarcia.wdm.ChromeDriverManager;
+import io.github.bonigarcia.wdm.FirefoxDriverManager;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.BeforeClass;
@@ -7,6 +8,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -22,12 +24,14 @@ public class taskFour extends BaseOperations {
 
     @BeforeClass
     public static void setup() {
-        ChromeDriverManager.getInstance().setup();
+        FirefoxDriverManager.getInstance().setup();
+//        ChromeDriverManager.getInstance().setup();
     }
 
     @Before
     public void setupTest() {
-        driver = new ChromeDriver();
+//        driver = new ChromeDriver();
+        driver = new FirefoxDriver();
         loginToAdmin(driver);
     }
 
