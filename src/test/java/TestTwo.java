@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class testTwo {
+public class TestTwo {
 
     private static By USERNAME_INPUT_FIELD_LOCATOR = By.cssSelector("[data-type=text]");
     private static By PASSWORD_INPUT_FIELD_LOCATOR = By.cssSelector("[data-type=password]");

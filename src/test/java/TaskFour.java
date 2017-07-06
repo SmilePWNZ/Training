@@ -15,7 +15,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.ArrayList;
 import java.util.List;
 
-public class taskFour extends BaseOperations {
+public class TaskFour extends BaseOperations {
 
     private static By NAVIGATION_TAB_LOCATOR = By.cssSelector("[id=app-]");
     private static By NAVIGATION_SUB_TAB_LOCATOR = By.cssSelector("[id^=doc]");

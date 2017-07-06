@@ -1,6 +1,4 @@
-import io.github.bonigarcia.wdm.ChromeDriverManager;
-import io.github.bonigarcia.wdm.FirefoxDriverManager;
-import io.github.bonigarcia.wdm.InternetExplorerDriverManager;
+import io.github.bonigarcia.wdm.*;
 import org.junit.*;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -10,7 +8,7 @@ import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class taskFive extends BaseOperations{
+public class TaskFive extends BaseOperations{
 
     private static By CAMPAIGN_PRODUCTS_TAB_LOCATOR = By.cssSelector(".active>a");
     private static By PRODUCT_CARD_LOCATOR = By.xpath("//div[contains(text(), 'Yellow Duck')]");

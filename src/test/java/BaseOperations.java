@@ -21,7 +21,6 @@ public abstract class BaseOperations {
     }
 
     public static void openStoreMainPage(WebDriver driver) {
-        WebDriverWait wait = new WebDriverWait(driver, 5);
         driver.get("http://localhost/litecart");
     }
 

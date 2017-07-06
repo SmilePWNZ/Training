@@ -5,7 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 
-public class testOne {
+public class TestOne {
     private static By SEARCH_BAR_GOOGLE_LOCATOR = By.id("lst-ib");
     private static By SEARCH_BUTTON_GOOGLE_LOCATOR = By.id("_fZl");
     private static By SEARCH_BAR_AMAZON_LOCATOR = By.id("twotabsearchtextbox");
